@@ -1,4 +1,4 @@
-package com.fibanez.springboot.web;
+package com.fibanez.springboot.controller;
 
 import java.util.List;
 
@@ -19,8 +19,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/employees")
-public class EmployeeController
-{
+public class EmployeeController {
+
     @Autowired
     EmployeeService service;
  

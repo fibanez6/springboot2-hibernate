@@ -13,7 +13,6 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import com.fibanez.springboot.JsonUtil;
 import com.fibanez.springboot.model.Employee;
 import com.fibanez.springboot.service.EmployeeService;
-import com.fibanez.springboot.web.EmployeeController;
 
 import java.util.Arrays;
 import java.util.List;
