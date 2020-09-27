@@ -1,6 +1,6 @@
 package com.fibanez.springboot.model;
 
-import java.util.List;
+import java.util.Set;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -30,7 +30,7 @@ public class Employee {
     private String email;
 
     @ManyToMany
-    private List<Task> tasks;
+    private Set<Task> tasks;
 
     public Employee(String firstName, String email) {
         this.firstName = firstName;
